@@ -1,5 +1,7 @@
 import java.util.Random;
 
+//Ejercicio 1
+
 public class Dado {
     public int numCaras;
     public int ultCara;
