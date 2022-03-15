@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T21:02:55.063Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.1.2" etag="EtYNdgiXodLfkxfW8bRb" type="github"><diagram id="7pHmEnkHZ6xdGlKemSwV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-15T21:06:40.554Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="WykB6l6Ce9xKzsBVLHey" version="17.1.2" type="github">
+  <diagram id="7pHmEnkHZ6xdGlKemSwV" name="Page-1">
+    <mxGraphModel dx="946" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1Yts_8op57tD0PHArkl5-1" value="Cuadricula" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="334" y="100" width="180" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yts_8op57tD0PHArkl5-2" value="- int  T = 10&#xa;-int tabla [ ][ ]&#xa;- String interfaz[ ][ ]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1Yts_8op57tD0PHArkl5-1">
+          <mxGeometry y="26" width="180" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yts_8op57tD0PHArkl5-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="1Yts_8op57tD0PHArkl5-1">
+          <mxGeometry y="90" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yts_8op57tD0PHArkl5-4" value="+ Cuadricula( )&#xa;+ DepositarBarco ( int x, int y)&#xa;+ disparar(int x, int y)&#xa;+ visualizacion( )" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1Yts_8op57tD0PHArkl5-1">
+          <mxGeometry y="98" width="180" height="92" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
