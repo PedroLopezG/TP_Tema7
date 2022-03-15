@@ -6,4 +6,4 @@ El código de los ejercicios se encuentra en el directorio /tema7 y el main es t
 
 El código ha sido realizado con intelliJ de forma colaborativa
 
-![Alt text](Ejercicio5UML.drawio.svg)
+![Alt text](GuerraBarcosV3.drawio.svg)
