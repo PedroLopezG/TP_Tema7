@@ -33,7 +33,22 @@ public class Main {
 
             break;
             case 3:
-
+                while(true){
+                        Cuadricula cuadricula = new Cuadricula();
+                        int fila = (int) (Math.random()*10);
+                        int columna = (int) (Math.random()*10);
+                        cuadricula.depositarBarco(fila, columna);
+                        //cuadricula.visualizacion();
+                        System.out.println("Introduce las coordenadas para disparar: ");
+                        System.out.println("X: ");
+                        int x = teclado.nextInt();
+                        System.out.println("Y: ");
+                        int y = teclado.nextInt();
+                        if(cuadricula.disparar(x, y)){
+                            break;
+                        }
+                        cuadricula.visualizacion();
+                    }
             break;
             case 4:
             
