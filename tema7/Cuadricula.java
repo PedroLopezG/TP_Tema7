@@ -1,15 +1,47 @@
+package tema7;
+
 public class Cuadricula {
-    int tabla[][] = new int [10][10];
+    final int T = 10;
+    int tabla[][] = new int [T][T];
+    String[][] interfaz = new String[T][T];
 
-    public void depositarBarco(){
+    
 
+    public Cuadricula() {
+        for (int j=0;j<T;j++){
+            for (int i=0;i<T;i++){
+                tabla[j][i]=0;
+            }
+        }
+
+        for (int j=0;j<T;j++){
+            for (int i=0;i<T;i++){
+                interfaz[j][i]="?";
+            }
+        }
     }
 
-    public void disparar(){
+    public void depositarBarco(int x, int y){
+        tabla[x][y] = 1;
+    }
 
+    public boolean disparar(int x, int y){
+        if(tabla[x][y] == 1){
+            System.out.println("Has hundido el barco!");
+            return true;
+        }else{
+            System.out.println("Agua!");
+            interfaz[x][y] = "~";
+            return false;
+        }
     }
 
     public void visualizacion(){
-        
+        for (int j=0;j<interfaz.length;j++){
+            for (int i=0;i< interfaz.length;i++){
+                System.out.print(" "+interfaz[j][i]);
+            }
+            System.out.println("");
+        }
     }
 }
