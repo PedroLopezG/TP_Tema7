@@ -28,7 +28,8 @@ public class Dado {
 
     public int tirarDado(){
         Random r = new Random();
-        this.ultCara = r.nextInt(1, this.numCaras+1);
+//        this.ultCara = r.nextInt(1, numCaras+1);
+        this.ultCara = (int) (Math.random() * (this.numCaras - 1)) + 1;
         return this.ultCara;
     }
 
