@@ -1,12 +1,12 @@
-package tema7;
+
 
 public class Cuadricula {
+
     final int T = 10;
     int tabla[][] = new int [T][T];
     String[][] interfaz = new String[T][T];
 
     
-
     public Cuadricula() {
         for (int j=0;j<T;j++){
             for (int i=0;i<T;i++){
@@ -25,9 +25,9 @@ public class Cuadricula {
         tabla[x][y] = 1;
     }
 
-    public boolean disparar(int x, int y){
+    public boolean disparar(int x, int y, String player){
         if(tabla[x][y] == 1){
-            System.out.println("Has hundido el barco!");
+            System.out.println(String.format("%s hundido el barco",player));
             return true;
         }else{
             System.out.println("Agua!");
